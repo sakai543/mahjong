@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mahjong</title>
+<link th:href="@{/css/style.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header><h1>麻雀の遊び方</h1></header>
+<main>
+         <div class="first">
+        	<h2>この形は平和ではありません</h2>
+        	<h2>どこが間違っているでしょうか？</h2>
+			<ul>
+				<li><img th:src="@{/img/p_ms2_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms3_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms4_1.gif}"></li>
+				<li><img th:src="@{/img/p_ss2_1.gif}"></li>
+				<li><img th:src="@{/img/p_ss3_1.gif}"></li>
+				<li><img th:src="@{/img/p_ss4_1.gif}"></li>
+				<li><img th:src="@{/img/p_ps2_1.gif}"></li>
+				<li><img th:src="@{/img/p_ps3_1.gif}"></li>
+				<li><img th:src="@{/img/p_ps4_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms6_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms7_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms8_1.gif}"></li>
+				<li><img th:src="@{/img/p_ss7_1.gif}"></li>
+				<li><img th:src="@{/img/p_ss7_1.gif}"></li>
+			</ul>
+			
+			<form method = "post" action="pinhu">
+			<input type = "checkbox" name = "riyu1">面子がすべて順子ではない
+			<input type = "checkbox" name = "riyu2">雀頭が役牌以外ではない
+			<input type = "checkbox" name = "riyu3">待ちがリャンメンではない
+			<br>
+      		<input type="submit" value="採点する" class="button"/>
+			</form>
+        </div>
+
+</main>
+<footer></footer>
+
+</body>
+</html>
