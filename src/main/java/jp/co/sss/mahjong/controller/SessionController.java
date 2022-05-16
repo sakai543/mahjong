@@ -52,4 +52,15 @@ public class SessionController {
 		}
 	}
 
+	@RequestMapping(path = "/doWhich5", method = RequestMethod.POST)
+	public String result5(String which) {
+
+		System.out.println(which);
+		if (which.equals("t1")) {
+			return "ThirdQuestion/thirdAnswer";
+		} else {
+			return "ThirdQuestion/thirdAnswer2";
+		}
+	}
+
 }
