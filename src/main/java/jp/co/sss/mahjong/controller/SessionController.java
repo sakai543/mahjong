@@ -19,4 +19,37 @@ public class SessionController {
 		}
 	}
 
+	@RequestMapping(path = "/doWhich2", method = RequestMethod.POST)
+	public String result2(String which) {
+
+		System.out.println(which);
+		if (which.equals("p1")) {
+			return "SecondQuestion/secondAnswer";
+		} else {
+			return "SecondQuestion/secondAnswer2";
+		}
+	}
+
+	@RequestMapping(path = "/doWhich3", method = RequestMethod.POST)
+	public String result3(String which) {
+
+		System.out.println(which);
+		if (which.equals("q1")) {
+			return "SecondQuestion/secondAnswer";
+		} else {
+			return "SecondQuestion/secondAnswer2";
+		}
+	}
+
+	@RequestMapping(path = "/doWhich4", method = RequestMethod.POST)
+	public String result4(String which) {
+
+		System.out.println(which);
+		if (which.equals("r2")) {
+			return "SecondQuestion/secondAnswer";
+		} else {
+			return "SecondQuestion/secondAnswer2";
+		}
+	}
+
 }
