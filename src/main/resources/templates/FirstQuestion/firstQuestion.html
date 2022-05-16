@@ -11,7 +11,7 @@
 <header><h1>麻雀の遊び方</h1></header>
 <main>
         <div class="first">
-        	<h2>この形は勝ちですか？</h2>
+        	<h2>3枚1組×4 と 2枚1組×1 の形を作れば勝ちです！</h2>
 			<ul>
 				<li><img th:src="@{/img/p_ms2_1.gif}"></li>
 				<li><img th:src="@{/img/p_ms3_1.gif}"></li>
@@ -29,15 +29,9 @@
 				<li><img th:src="@{/img/p_ji_e_1.gif}"></li>
 			</ul>
         </div>
-        
-        <form method = "get" action="/mahjong/doWhich">
-        	<input type="radio" id="1" name="which" value="win">
-      		<label for="huey">勝ち</label>
-        	<input type="radio" id="2" name="which" value="lose">
-      		<label for="dewey">負け</label>
-      		<br>
-      		<input type="submit" value="採点する" class="button"/>
-        </form>
+        <div class = "btn">
+        		<h2><a href="/mahjong/FirstQuestion/firstAnswer" class="button">問題に進む！</a></h2>
+        </div>
 </main>
 <footer></footer>
 

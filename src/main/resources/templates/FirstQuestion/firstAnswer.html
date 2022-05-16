@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mahjong</title>
+<link th:href="@{/css/style.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header><h1>麻雀の遊び方</h1></header>
+<main>
+        <div class="first">
+        	<h2>あと何が来ればアガリ？</h2>
+			<ul>
+				<li><img th:src="@{/img/p_ms2_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms3_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms4_1.gif}"></li>
+				<li><img th:src="@{/img/p_ss2_1.gif}"></li>
+				<li><img th:src="@{/img/p_ss3_1.gif}"></li>
+				<li><img th:src="@{/img/p_bk_5.gif}" style = "display: none;"></li>
+				<li><img th:src="@{/img/p_ps2_1.gif}"></li>
+				<li><img th:src="@{/img/p_ps3_1.gif}"></li>
+				<li><img th:src="@{/img/p_ps4_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms6_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms6_1.gif}"></li>
+				<li><img th:src="@{/img/p_ms6_1.gif}"></li>
+				<li><img th:src="@{/img/p_ji_e_1.gif}"></li>
+				<li><img th:src="@{/img/p_ji_e_1.gif}"></li>
+			</ul>
+        </div>
+
+        
+        
+        
+        
+<!-- 
+        <form method = "post" action="/mahjong/doWhich">
+        <ul>
+        	<li>
+      		<label for="huey">
+      		<img th:src="@{/img/p_ss3_1.gif}">
+      		<div class = radio_img><input type="radio" name="which1"></div>
+      		</label></li>
+        	<li>
+      		<label for="dewey">
+      		<img th:src="@{/img/p_ss4_1.gif}">
+      		<div class = radio_img><input type="radio" name="which2""></div>
+      		</label></li>
+        	<li>
+      		<label for="dewey">
+      		<img th:src="@{/img/p_ps1_1.gif}">
+      		<div class = radio_img><input type="radio" name="which3"></div>
+      		</label></li>
+      		
+        </ul>
+      		<input type="submit" value="採点する" class="button"/>
+        </form> -->
+</main>
+<footer></footer>
+
+</body>
+</html>

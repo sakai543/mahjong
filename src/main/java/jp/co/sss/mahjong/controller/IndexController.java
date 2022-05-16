@@ -11,24 +11,64 @@ public class IndexController {
 		return "index";
 	}
 
-	@RequestMapping(path = "/firstQuestion")
+	@RequestMapping(path = "FirstQuestion/firstQuestion")
 	public String firstQuestion() {
-		return "firstQuestion";
+		return "FirstQuestion/firstQuestion";
 	}
 
-	@RequestMapping(path = "/firstAnswer")
+	@RequestMapping(path = "FirstQuestion/firstAnswer")
 	public String firstAnswer() {
-		return "firstAnswer";
+		return "FirstQuestion/firstAnswer";
 	}
 
-	@RequestMapping(path = "/secondQuestion")
+	@RequestMapping(path = "FirstQuestion/result2")
+	public String result2() {
+		return "FirstQuestion/result2";
+	}
+
+	@RequestMapping(path = "Pinhu/secondQuestion")
 	public String secondQuestion() {
-		return "secondQuestion";
+		return "Pinhu/secondQuestion";
 	}
 
-	@RequestMapping(path = "/secondAnswer")
+	@RequestMapping(path = "Pinhu/secondAnswer")
 	public String secondAnswer() {
-		return "secondAnswer";
+		return "Pinhu/secondQuestion";
+	}
+
+	@RequestMapping(path = "SecondQuestion/secondRule")
+	public String secondRule() {
+		return "SecondQuestion/secondRule";
+	}
+
+	@RequestMapping(path = "SecondQuestion/secondQuestion")
+	public String secondQuestion2() {
+		return "SecondQuestion/secondQuestion";
+	}
+
+	@RequestMapping(path = "SecondQuestion/secondAnswer")
+	public String secondAnswer2() {
+		return "SecondQuestion/secondAnswer";
+	}
+
+	@RequestMapping(path = "ThirdQuestion/thirdRule")
+	public String thirdRule() {
+		return "ThirdQuestion/thirdRule";
+	}
+
+	@RequestMapping(path = "ThirdQuestion/thirdQuestion")
+	public String thirdQuestion() {
+		return "ThirdQuestion/thirdQuestion";
+	}
+
+	@RequestMapping(path = "ThirdQuestion/thirdAnswer")
+	public String thirdAnswer() {
+		return "ThirdQuestion/thirdAnswer";
+	}
+
+	@RequestMapping(path = "Last/last")
+	public String last() {
+		return "Last/last";
 	}
 
 }

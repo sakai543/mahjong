@@ -16,7 +16,10 @@ header h1{
     margin: 0;
 }
 main{
-	    text-align: center;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 main h2{
     color: white;
@@ -51,9 +54,72 @@ ul{
 
 li{
 	list-style:none;
+	text-align: center;
 }
 li img{
 	width: 50px;
 	height: 60px;
 	padding: 5px;
 } 
+
+form{
+	color: white;
+}
+
+.radio_img{
+	margin: 10px;
+}
+
+.parent{
+	display: flex;
+	flex: 1;
+}
+
+.my_pi{
+	flex: 1;
+}
+
+.left_pi{
+	width: 150px;
+}
+.left_pi img{
+	height: 400px;
+}
+
+.right_pi{
+	width: 150px;
+}
+.right_pi img{
+	height: 400px;
+}
+
+
+.first_pi{
+	height: 100px;
+}
+.first_pi img{
+	width: 400px;
+	margin-top: 20px
+}
+
+.little_parent{
+	display: flex;
+	height: 40vh;
+}
+.little_top{
+	flex: 40%;
+}
+.little_left{
+	flex: 30%;
+}
+.little_right{
+	flex: 30%;
+}
+.little_bottom{
+	height: 15vh;
+}
+.real_my_pi{
+	height: 15vh
+}
+
+
