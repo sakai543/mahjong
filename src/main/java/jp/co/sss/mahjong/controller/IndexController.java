@@ -21,6 +21,11 @@ public class IndexController {
 		return "FirstQuestion/firstAnswer";
 	}
 
+	@RequestMapping(path = "FirstQuestion/result")
+	public String result() {
+		return "FirstQuestion/result";
+	}
+
 	@RequestMapping(path = "FirstQuestion/result2")
 	public String result2() {
 		return "FirstQuestion/result2";
