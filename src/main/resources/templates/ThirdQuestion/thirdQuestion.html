@@ -47,7 +47,9 @@
 			<img th:src="@{/img/p_ss1_1.gif}"style = "margin-top: 10px;">
 			<form method = "post" action="/mahjong/doWhich5">
 				<input type="radio" id="1" name="which" value="t1">ツモ
-				<input type="radio" id="1" name="which" value="t2">ツモじゃない<br>
+				<input type="radio" id="1" name="which" value="t2">ツモじゃない
+				<input type="radio" name="which"value="t3" checked="checked" style="display:none;" />
+				<br>
 				<input type="submit" value="採点する" class="button"/>
 			</form>
 

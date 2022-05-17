@@ -14,6 +14,8 @@ public class SessionController {
 		System.out.println(which);
 		if (which.equals("w2")) {
 			return "FirstQuestion/result";
+		} else if (which.equals("w4")) {
+			return "FirstQuestion/firstAnswer";
 		} else {
 			return "FirstQuestion/result2";
 		}
@@ -25,6 +27,8 @@ public class SessionController {
 		System.out.println(which);
 		if (which.equals("p1")) {
 			return "SecondQuestion/secondAnswer";
+		} else if (which.equals("p3")) {
+			return "SecondQuestion/secondQuestion";
 		} else {
 			return "SecondQuestion/secondAnswer2";
 		}
@@ -36,6 +40,8 @@ public class SessionController {
 		System.out.println(which);
 		if (which.equals("q1")) {
 			return "SecondQuestion/secondAnswer";
+		} else if (which.equals("q3")) {
+			return "SecondQuestion/secondQuestion";
 		} else {
 			return "SecondQuestion/secondAnswer2";
 		}
@@ -47,6 +53,8 @@ public class SessionController {
 		System.out.println(which);
 		if (which.equals("r2")) {
 			return "SecondQuestion/secondAnswer";
+		} else if (which.equals("r3")) {
+			return "SecondQuestion/secondQuestion";
 		} else {
 			return "SecondQuestion/secondAnswer2";
 		}
@@ -58,6 +66,8 @@ public class SessionController {
 		System.out.println(which);
 		if (which.equals("t1")) {
 			return "ThirdQuestion/thirdAnswer";
+		} else if (which.equals("t3")) {
+			return "ThirdQuestion/thirdQuestion";
 		} else {
 			return "ThirdQuestion/thirdAnswer2";
 		}

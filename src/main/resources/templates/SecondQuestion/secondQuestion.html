@@ -21,7 +21,9 @@
 			<div class = "little_left"><img th:src="@{/img/p_ss4_1.gif}" style = "margin-top: 100px;">
 				<form method = "post" action="/mahjong/doWhich2">
 					<input type="radio" id="1" name="which" value="p1">ロン
-					<input type="radio" id="1" name="which" value="p2">ロンじゃない<br>
+					<input type="radio" id="1" name="which" value="p2">ロンじゃない
+					<input type="radio" name="which"value="p3" checked="checked" style="display:none;" />
+					<br>
 					<input type="submit" value="採点する" class="button"/>
 				</form>		
 			</div>
@@ -29,7 +31,9 @@
 			<img th:src="@{/img/p_ss1_1.gif}"style = "margin-top: 10px;">
 				<form method = "post" action="/mahjong/doWhich3">
 					<input type="radio" id="1" name="which" value="q1">ロン
-					<input type="radio" id="1" name="which" value="q2">ロンじゃない<br>
+					<input type="radio" id="1" name="which" value="q2">ロンじゃない
+					<input type="radio" name="which"value="q3" checked="checked" style="display:none;" />
+					<br>
 					<input type="submit" value="採点する" class="button"/>
 				</form>
 			</div>
@@ -37,7 +41,9 @@
 			<img th:src="@{/img/p_ms1_1.gif}"style = "margin-top: 100px;">
 				<form method = "post" action="/mahjong/doWhich4">
 					<input type="radio" id="1" name="which" value="r1">ロン
-					<input type="radio" id="1" name="which" value="r2">ロンじゃない<br>
+					<input type="radio" id="1" name="which" value="r2">ロンじゃない
+					<input type="radio" name="which"value="r3" checked="checked" style="display:none;" />
+					<br>
 					<input type="submit" value="採点する" class="button"/>
 				</form>
 			</div>
